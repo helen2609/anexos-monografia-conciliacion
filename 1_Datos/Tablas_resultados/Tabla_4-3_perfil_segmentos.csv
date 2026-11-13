@@ -1,4 +1,0 @@
-segmento,ordenes,observadas,tasa_obs,servicio_dominante,pct_servicio_dominante,media_CABLE_DROP,media_TENSORES,media_postes,media_CABLE_DUCTO,media_ANILLAS_GUIA,media_CINTA_ACERO,media_CABLE_UTP,media_TERMINAL_SC,z_medio_rasgos
-A (extremas),8,0,0.0,SOLO ONT,0.88,87.75,5.88,3.38,1.12,5.38,0.79,2.25,2.0,"CINTA_ACERO(+6.6), ANILLAS_GUIA(+6.5), CABLE_ACERO_CRUCE(+5.3), CABLE_DROP(-0.8)"
-B1,312,9,0.03,SOLO ONT,0.66,102.77,4.79,2.75,0.83,0.02,0.0,5.8,1.85,"postes(-0.5), TENSORES(-0.5), CABLE_DROP(-0.5), CINTA_ACERO(-0.1)"
-B2,151,5,0.03,SOLO ONT,0.7,266.93,14.61,7.9,1.14,0.0,0.0,2.92,1.99,"TENSORES(+1.1), postes(+1.1), CABLE_DROP(+1.1), CINTA_ACERO(-0.1)"
