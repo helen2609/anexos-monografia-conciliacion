@@ -1,0 +1,6 @@
+enfoque,VP,FP,FN,VN
+LOF,7,112,7,345
+Random Forest,6,113,8,344
+Mahalanobis robusta (MCD),5,114,9,343
+Regresion logistica,7,112,7,345
+Indice de riesgo (reglas),5,114,9,343

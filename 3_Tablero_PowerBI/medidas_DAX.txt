@@ -1,0 +1,19 @@
+MEDIDAS DAX DEL TABLERO (Power BI Desktop)
+Tablas: Ordenes, Diferencias, Tecnicos, Materiales, Modelos, KPI (hojas de 1_Datos/Datos_PowerBI.xlsx)
+Relaciones: Ordenes[solicitud] -> Diferencias[solicitud] (1:*) ; Tecnicos[tecnico_cod] -> Ordenes[tecnico1_cod] (1:*)
+
+--- Tabla Ordenes ---
+Total Ordenes = COUNTROWS(Ordenes)
+Observadas = CALCULATE(COUNTROWS(Ordenes), Ordenes[observada_operador] = 1)
+Tasa Observacion = DIVIDE([Observadas], [Total Ordenes])
+Ordenes ALTO = CALCULATE(COUNTROWS(Ordenes), Ordenes[nivel_riesgo] = "ALTO")
+Ordenes MEDIO = CALCULATE(COUNTROWS(Ordenes), Ordenes[nivel_riesgo] = "MEDIO")
+Carga Revision = DIVIDE([Ordenes ALTO] + [Ordenes MEDIO], [Total Ordenes])
+Observadas Alertadas = CALCULATE(COUNTROWS(Ordenes), Ordenes[observada_operador] = 1, Ordenes[nivel_riesgo] <> "BAJO")
+Recall Reglas = DIVIDE([Observadas Alertadas], [Observadas])
+Precision Reglas = DIVIDE([Observadas Alertadas], [Ordenes ALTO] + [Ordenes MEDIO])
+
+--- Tabla Diferencias ---
+Bs No Facturado = ABS(CALCULATE(SUM(Diferencias[bs]), Diferencias[bs] < 0))
+Bs Facturado de Mas = CALCULATE(SUM(Diferencias[bs]), Diferencias[bs] > 0)
+Ordenes con Diferencia = DISTINCTCOUNT(Diferencias[solicitud])

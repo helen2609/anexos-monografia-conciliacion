@@ -1,0 +1,43 @@
+enfoque,k,pct,capturadas_media,min,max,exhaustividad,precision,esperado_azar
+LOF,60,12.7,5.0,5,5,0.357,0.083,1.783
+LOF,119,25.3,7.0,7,7,0.5,0.059,3.537
+LOF,150,31.8,7.0,7,7,0.5,0.047,4.459
+Random Forest,60,12.7,2.0,2,2,0.143,0.033,1.783
+Random Forest,119,25.3,6.0,6,6,0.429,0.05,3.537
+Random Forest,150,31.8,7.0,7,7,0.5,0.047,4.459
+Mahalanobis robusta (MCD),60,12.7,4.0,4,4,0.286,0.067,1.783
+Mahalanobis robusta (MCD),119,25.3,5.0,5,5,0.357,0.042,3.537
+Mahalanobis robusta (MCD),150,31.8,6.0,6,6,0.429,0.04,4.459
+Puntaje z maximo,60,12.7,3.0,3,3,0.214,0.05,1.783
+Puntaje z maximo,119,25.3,6.2,5,7,0.443,0.052,3.537
+Puntaje z maximo,150,31.8,9.0,9,9,0.643,0.06,4.459
+One-Class SVM,60,12.7,3.0,3,3,0.214,0.05,1.783
+One-Class SVM,119,25.3,4.0,4,4,0.286,0.034,3.537
+One-Class SVM,150,31.8,4.0,4,4,0.286,0.027,4.459
+K-medias (distancia al centro),60,12.7,3.0,3,3,0.214,0.05,1.783
+K-medias (distancia al centro),119,25.3,6.0,6,6,0.429,0.05,3.537
+K-medias (distancia al centro),150,31.8,7.0,7,7,0.5,0.047,4.459
+Jerarquico de Ward (distancia al centro),60,12.7,3.0,3,3,0.214,0.05,1.783
+Jerarquico de Ward (distancia al centro),119,25.3,6.0,6,6,0.429,0.05,3.537
+Jerarquico de Ward (distancia al centro),150,31.8,7.0,7,7,0.5,0.047,4.459
+Regresion logistica,60,12.7,5.0,5,5,0.357,0.083,1.783
+Regresion logistica,119,25.3,7.0,7,7,0.5,0.059,3.537
+Regresion logistica,150,31.8,8.0,8,8,0.571,0.053,4.459
+Isolation Forest,60,12.7,2.0,2,2,0.143,0.033,1.783
+Isolation Forest,119,25.3,5.0,5,5,0.357,0.042,3.537
+Isolation Forest,150,31.8,7.0,7,7,0.5,0.047,4.459
+XGBoost,60,12.7,4.0,4,4,0.286,0.067,1.783
+XGBoost,119,25.3,4.0,4,4,0.286,0.034,3.537
+XGBoost,150,31.8,5.0,5,5,0.357,0.033,4.459
+Mezcla gaussiana (GMM),60,12.7,3.0,3,3,0.214,0.05,1.783
+Mezcla gaussiana (GMM),119,25.3,5.0,5,5,0.357,0.042,3.537
+Mezcla gaussiana (GMM),150,31.8,7.0,7,7,0.5,0.047,4.459
+DBSCAN (distancia k-vecino),60,12.7,2.0,2,2,0.143,0.033,1.783
+DBSCAN (distancia k-vecino),119,25.3,5.0,5,5,0.357,0.042,3.537
+DBSCAN (distancia k-vecino),150,31.8,5.0,5,5,0.357,0.033,4.459
+Indice de riesgo (reglas),60,12.7,2.56,1,5,0.183,0.043,1.783
+Indice de riesgo (reglas),119,25.3,5.0,5,5,0.357,0.042,3.537
+Indice de riesgo (reglas),150,31.8,5.84,5,8,0.417,0.039,4.459
+Autocodificador,60,12.7,2.0,2,2,0.143,0.033,1.783
+Autocodificador,119,25.3,4.0,4,4,0.286,0.034,3.537
+Autocodificador,150,31.8,4.0,4,4,0.286,0.027,4.459
