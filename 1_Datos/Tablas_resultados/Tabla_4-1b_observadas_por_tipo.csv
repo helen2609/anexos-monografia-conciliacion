@@ -1,0 +1,8 @@
+agrupacion,categoria,ordenes,observadas,tasa,ic95_inf,ic95_sup
+tipo_servicio,ADICION DE SERVICIO,24,0,0.0,0.0,0.138
+tipo_servicio,ONT + 1 STB,50,1,0.02,0.004,0.105
+tipo_servicio,ONT + 2 STB,63,5,0.079,0.034,0.173
+tipo_servicio,ONT + 3 STB,14,1,0.071,0.013,0.315
+tipo_servicio,SOLO ONT,320,7,0.022,0.011,0.044
+tipo_trabajo,ADICION DE SERVICIO,24,0,0.0,0.0,0.138
+tipo_trabajo,INSTALACION,447,14,0.031,0.019,0.052

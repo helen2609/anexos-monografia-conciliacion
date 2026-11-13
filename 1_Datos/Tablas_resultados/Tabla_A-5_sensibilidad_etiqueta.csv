@@ -1,0 +1,15 @@
+enfoque,AUC_14_observadas,AUC_13_sin_lectura_parcial,AUC_error_real_20,AUC_dentro_72_PDF
+LOF,0.676,0.661,0.775,0.728
+Random Forest,0.66,0.647,0.55,0.516
+Mahalanobis robusta (MCD),0.656,0.658,0.743,0.679
+Puntaje z maximo,0.635,0.658,0.705,0.66
+One-Class SVM,0.634,0.633,0.735,0.675
+K-medias (distancia al centro),0.633,0.644,0.714,0.666
+Jerarquico de Ward (distancia al centro),0.633,0.644,0.714,0.667
+Regresion logistica,0.632,0.613,0.522,0.492
+Isolation Forest,0.624,0.615,0.731,0.687
+XGBoost,0.581,0.557,0.488,0.482
+Mezcla gaussiana (GMM),0.571,0.55,0.675,0.611
+DBSCAN (distancia k-vecino),0.568,0.552,0.691,0.625
+Indice de riesgo (reglas),0.553,0.566,0.652,0.659
+Autocodificador,0.548,0.562,0.679,0.64
